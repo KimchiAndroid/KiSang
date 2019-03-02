@@ -45,7 +45,6 @@
         android:background="#FFFFFF"
         tools:layout_editor_absoluteX="-3dp"
         tools:layout_editor_absoluteY="84dp">
-
     </TimePicker>
 
     <ListView
