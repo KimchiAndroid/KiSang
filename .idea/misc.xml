@@ -5,6 +5,7 @@
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   </component>
   <component name="NullableNotNullManager">
@@ -42,6 +43,8 @@
       </value>
     </option>
 >>>>>>> Merge pull request #1 from wjp103/master (#3) (#4) (#6)
+=======
+>>>>>>> Merge pull request #1 from wjp103/master (#3) (#4)
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

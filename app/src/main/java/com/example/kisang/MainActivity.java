@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        List<String> list = new ArrayList<>();
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
-                android.R.layout.simple_list_item_1, list);
-
-        listview.setAdapter(adapter);
+//        List<String> list = new ArrayListList<>();
+//
+//        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
+//                android.R.layout.simple_list_item_1, list);
+//
+//        listview.setAdapter(adapter);
     }
 }
 
