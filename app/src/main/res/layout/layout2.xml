@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2E2E">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:text="알람"
+        android:textSize="45sp"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:text="다시 알림"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="253dp"
+        android:textColor="#FFFFFF"
+        android:background="#FF8000"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="67dp"
+        android:layout_height="35dp"
+        android:text="중단"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="420dp"
+        android:background="#F2F2F2"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="111dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:inputType="time"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:text="@tools:sample/date/hhmm" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="82dp"
+        tools:text="@tools:sample/date/mmddyy" />
+
+</android.support.constraint.ConstraintLayout>
