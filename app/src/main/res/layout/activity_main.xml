@@ -4,16 +4,97 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#2E2E2E">
 
-    <TextView
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="편집"
+        android:textColor="#FF8000"
+        android:background="#D8D8D8"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textColor="#FF8000"
+        android:background="#D8D8D8"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ListView
+        android:layout_width="368dp"
+        android:layout_height="399dp"
+        android:background="#D8D8D8"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="104dp"
+        tools:ignore="MissingConstraints" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="49dp"
+        android:layout_height="28dp"
+        android:background="#D8D8D8"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="49dp"
+        android:layout_height="28dp"
+        android:background="#D8D8D8"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="49dp"
+        android:layout_height="28dp"
+        android:background="#D8D8D8"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="49dp"
+        android:layout_height="28dp"
+        android:background="#D8D8D8"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="49dp"
+        android:layout_height="28dp"
+        android:background="#D8D8D8"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="49dp"
+        android:layout_height="28dp"
+        android:background="#D8D8D8"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="447dp" />
 
     <Button
         android:id="@+id/button2"
