@@ -66,9 +66,8 @@ public class RingAlarm extends AppCompatActivity {
     }
 }
 
-//알람 받아오기
+/*알람 받아오기
 class AlarmReceiver extends BroadcastReceiver{
-
     @Override
     public void onReceive(Context context, Intent intent){
 
@@ -76,3 +75,4 @@ class AlarmReceiver extends BroadcastReceiver{
         context.startService(mServiceintent);
     }
 }
+*/
